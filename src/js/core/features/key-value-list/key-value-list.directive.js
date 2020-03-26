@@ -1,4 +1,4 @@
-angular.module('linuxDash').directive('keyValueList', ['server', '$rootScope', function (server, $rootScope) {
+angular.module('AuzmorDash').directive('keyValueList', ['server', '$rootScope', function (server, $rootScope) {
   return {
     scope: {
       heading: '@',

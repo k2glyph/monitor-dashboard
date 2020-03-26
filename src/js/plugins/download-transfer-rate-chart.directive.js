@@ -1,4 +1,4 @@
-angular.module('linuxDash').directive('downloadTransferRateChart', ['server', function(server) {
+angular.module('AuzmorDash').directive('downloadTransferRateChart', ['server', function(server) {
   return {
     restrict: 'E',
     scope: {},

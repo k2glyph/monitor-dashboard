@@ -1,4 +1,4 @@
-angular.module('linuxDash').directive('cpuTemp', ['server', function(server) {
+angular.module('AuzmorDash').directive('cpuTemp', ['server', function(server) {
   return {
     restrict: 'E',
     scope: {},

@@ -1,4 +1,4 @@
-angular.module('linuxDash').directive('multiLineChartPlugin', [
+angular.module('AuzmorDash').directive('multiLineChartPlugin', [
   '$interval', '$compile', 'server', '$window',
   function ($interval, $compile, server, $window) {
     return {

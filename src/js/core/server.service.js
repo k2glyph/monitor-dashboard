@@ -1,5 +1,5 @@
 angular
-  .module('linuxDash')
+  .module('AuzmorDash')
   .service('server', [
     '$http', '$rootScope', '$location',
     function($http, $rootScope, $location) {

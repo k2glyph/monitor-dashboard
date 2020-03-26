@@ -1,4 +1,4 @@
-angular.module('linuxDash').directive('diskSpace', ['server', function(server) {
+angular.module('AuzmorDash').directive('diskSpace', ['server', function(server) {
   return {
     restrict: 'E',
     scope: {},

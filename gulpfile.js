@@ -9,7 +9,7 @@ var templateCache = require('gulp-angular-templatecache')
 g.task('template-cache', function () {
   return g.src('src/**/*.html')
     .pipe(templateCache('templates.js', {
-        module: 'linuxDash',
+        module: 'AuzmorDash',
         standAlone: false,
         root: 'src/'
       }))
@@ -25,7 +25,7 @@ g.task('generate-js-dist', ['template-cache'], function () {
     'src/js/**/*.js',
     'temp/templates.js'
   ])
-  .pipe(concat('linuxDash.min.js'))
+  .pipe(concat('AuzmorDash.min.js'))
   .pipe(ngAnnotate())
   // .pipe(uglify())
   .on('error', gutil.log)
@@ -35,7 +35,7 @@ g.task('generate-js-dist', ['template-cache'], function () {
 g.task('generate-css-dist', function () {
   return g.src([ 'src/**/*.css' ])
     .pipe(cssmin())
-    .pipe(concat('linuxDash.min.css'))
+    .pipe(concat('AuzmorDash.min.css'))
     .pipe(g.dest('app/'))
 })
 

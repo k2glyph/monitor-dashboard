@@ -1,4 +1,4 @@
-angular.module('linuxDash').directive('tableData', ['server', '$rootScope', function (server, $rootScope) {
+angular.module('AuzmorDash').directive('tableData', ['server', '$rootScope', function (server, $rootScope) {
   return {
     scope: {
       heading: '@',

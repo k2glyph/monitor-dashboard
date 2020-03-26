@@ -1,4 +1,4 @@
-angular.module('linuxDash').directive('topBar', ['$rootScope', function($rootScope) {
+angular.module('AuzmorDash').directive('topBar', ['$rootScope', function($rootScope) {
   return {
     scope: {
       heading: '=',

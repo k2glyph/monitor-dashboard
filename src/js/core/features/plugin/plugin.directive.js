@@ -1,4 +1,4 @@
-angular.module('linuxDash').directive('plugin', ['$rootScope', function($rootScope) {
+angular.module('AuzmorDash').directive('plugin', ['$rootScope', function($rootScope) {
   return {
     transclude: true,
     templateUrl: 'src/js/core/features/plugin/plugin.html',

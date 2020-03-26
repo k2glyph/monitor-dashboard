@@ -1,4 +1,4 @@
-angular.module('linuxDash').directive('cpuUtilizationChart', ['server', function(server) {
+angular.module('AuzmorDash').directive('cpuUtilizationChart', ['server', function(server) {
   return {
     restrict: 'E',
     scope: {},

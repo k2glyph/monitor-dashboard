@@ -10,7 +10,7 @@ import (
 )
 
 var (
-	listenAddress = flag.String("listen", "0.0.0.0:80", "Where the server listens for connections. [interface]:port")
+	listenAddress = flag.String("listen", "0.0.0.0:8081", "Where the server listens for connections. [interface]:port")
 	staticPath    = flag.String("static", "../", "Location of static files.")
 )
 

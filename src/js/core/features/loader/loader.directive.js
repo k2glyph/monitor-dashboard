@@ -1,4 +1,4 @@
-angular.module('linuxDash').directive('loader', function() {
+angular.module('AuzmorDash').directive('loader', function() {
   return {
     scope: {
       width: '@'

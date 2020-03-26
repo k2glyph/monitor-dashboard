@@ -1,4 +1,4 @@
-angular.module('linuxDash').directive('ramChart', ['server', function (server) {
+angular.module('AuzmorDash').directive('ramChart', ['server', function (server) {
   return {
     restrict: 'E',
     scope: {},

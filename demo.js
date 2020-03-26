@@ -1,5 +1,5 @@
 angular
-  .module('linuxDashDemo', ['linuxDash', 'ngMockE2E'])
+  .module('AuzmorDashDemo', ['AuzmorDash', 'ngMockE2E'])
   .run(function($httpBackend) {
 
 // signal to not use websockets for demo

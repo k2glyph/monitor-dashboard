@@ -1,4 +1,4 @@
-angular.module('linuxDash').directive('progressBarPlugin', function() {
+angular.module('AuzmorDash').directive('progressBarPlugin', function() {
   return {
     scope: {
       width: '@',

@@ -1,4 +1,4 @@
-angular.module('linuxDash').directive('cpuAvgLoadChart', ['server', function(server) {
+angular.module('AuzmorDash').directive('cpuAvgLoadChart', ['server', function(server) {
   return {
     restrict: 'E',
     scope: {},

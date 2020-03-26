@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>
+   <title>Login</title>
+   <link href="./login.css" rel="stylesheet"  type="text/css"/>
+</head>
+<body>
+   <div class="log-form"><h2>Login to your account</h2>
+      <!-- <i class="fa fa-exclamation-triangle"></i> check your email id and password -->
+      <div name="loginMessage"></div>
+      <form ng-submit="login($event)" name="loginForm">
+         <input type="text" title="username" placeholder="username" name="username" ng-model="user.name" />
+         <input type="password" title="username" placeholder="password" name="password" ng-model="user.password" />
+         <button type="submit" class="btn">Login</button></form></div>
+</body>
+</html>

@@ -1,5 +1,5 @@
 angular
-  .module('linuxDash')
+  .module('AuzmorDash')
   .run(['$rootScope', '$location', function ($rootScope, $location) {
 
     var key = 'hiddenPlugins'

@@ -95,7 +95,7 @@ var simpleTableModules = [
 
 simpleTableModules.forEach(function(module, key) {
 
-  angular.module('linuxDash').directive(module.name, ['server', function(server) {
+  angular.module('AuzmorDash').directive(module.name, ['server', function(server) {
 
     var moduleDirective = {
       restrict: 'E',
